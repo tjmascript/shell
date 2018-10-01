@@ -1,0 +1,1 @@
+<html><body>You are being <a href="https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh">redirected</a>.</body></html>

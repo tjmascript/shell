@@ -1,0 +1,1 @@
+<html><body>You are being <a href="https://raw.githubusercontent.com/teddysun/across/master/bbr.sh">redirected</a>.</body></html>

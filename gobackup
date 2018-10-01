@@ -1,0 +1,11 @@
+version='0.7.1'
+platform='linux'
+os_uname=`uname`
+if [[ "$os_uname" == 'Linux' ]]; then
+   platform='linux'
+elif [[ "$os_uname" == 'Darwin' ]]; then
+   platform='darwin'
+fi
+curl -Lo gobackup.tar.gz https://github.com/huacnlee/gobackup/releases/download/$version/gobackup-$platform-amd64.tar.gz
+tar zxf gobackup.tar.gz && sudo mv gobackup /usr/local/bin/gobackup && rm gobackup.tar.gz
+mkdir -p ~/.gobackup && touch ~/.gobackup/gobackup.yml

@@ -1,0 +1,1 @@
+<html><body>You are being <a href="https://raw.githubusercontent.com/oooldking/script/master/superbench.sh">redirected</a>.</body></html>
